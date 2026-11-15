@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    .scale{
+        text-align: center;
+        transition: 0.4s;
+        color: red;
+        font-size: 2rem;
+        font-style: italic;
+    }
+    .scale:hover{
+        color: blue;
+        transform:scale(1.5);
+    }
+    .translate{
+        transition: 0.3s;
+        text-align: center;
+    }
+    .translate:hover{
+        color: blueviolet;
+        transform: translate(50px,20px);
+        font-style:italic ;
+    }
+    .rotate{
+        text-align: center;
+        transition: 10s;
+    }
+    .rotate:hover{
+        color: violet;
+        transform: rotate(2300deg);
+    }
+    .image{
+        
+        transition: 20s;
+    }
+    .image:hover{
+        transform: rotate(360deg);
+    }
+</style>
+<body>
+    <h3 class="scale">Effect and Animations</h3><br><br><br>
+    <h3 class="translate"> transform transition</h3><br><br><br>
+    <h3 class="rotate">transform rotate</h3><br>
+    <img class="image" src="p3coffee.jpg" alt="image" >
+</body>
+</html>
